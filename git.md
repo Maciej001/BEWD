@@ -1,20 +1,25 @@
 # Git and Github
 
 ## General 
-three stages:
+
+**Three stages:**
+
 - committed - data safely stored in your local system
 - modified - changed but not committed into your db
 - staged - marked as changed to go to commit in next stage
 
-basic workflow:
+
+**Basic workflow:**
+
 1. modify file in working directory
 2. stage the files
 3. commit - permanent snapshot in git directory
 
-First time setup
-/etc/gitconfig - values for every user on the system
-/.gitconfig - specific to the user. you can make git read and write to the file by passing --global variable. C:\User\Malgorzata Syta
-.git/config - file within your repository.
+**First time setup**
+
+- `/etc/gitconfig` - values for every user on the system
+- `/.gitconfig` - specific to the user. you can make git read and write to the file by passing --global variable. C:\User\Malgorzata Syta
+- `.git/config` - file within your repository.
 
 ```
 git config --global user.name “Maciej Nowakowski”
