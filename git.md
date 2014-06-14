@@ -105,28 +105,36 @@ origin - to dowolna nazwa( moze byc np.primary) twojego remote repository.
 
 `git branch`           checks on which branch you are on now
 
-Branching
+
+##Branching
 
 1. make  a new branch
-git checkout -b nazwa-branch
 
-2. add and commit. jesli nie utworzyles nowych plikow
-git commit -a -m “improved files”
+`git checkout -b nazwa-branch`
 
-z nowymi plikami
+2. add and commit. if you did not create new files
 
+`git commit -am “improved files”`
+
+**with new files:**
+```
 git add .
 git commit -m “improved files”
+```
 
 3. move to master branch and merge
+```
 git checkout master
-git merge galaz
+git merge my_branch
+```
 
-git branch -d galaz - to         delete the branch
+`git branch -d my_branch` - to delete my_branch
 
-jesli chcesz wyciac galaz przed polaczeniem z master
-git checkout master        zeby wrocic do master
-git branch -D galaz         duze D wycina galaz
+
+to delete branch before merging:
+
+`git checkout master` - to go back to master
+`git branch -D my_branch - "D" deletes branch
 
 
 
