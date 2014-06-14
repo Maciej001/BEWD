@@ -17,9 +17,9 @@ First time setup
 .git/config - file within your repository.
 
 to do 
-git config --global user.name “Maciej Nowakowski”
-git config --global user.email “m.nowakowskipl@gmail.com”
-git config --global core.editor subl
+`git config --global user.name “Maciej Nowakowski”`
+`git config --global user.email “m.nowakowskipl@gmail.com”`
+`git config --global core.editor subl`
 
 to check:
 git config --list
