@@ -18,7 +18,7 @@
 **First time setup**
 
 - `/etc/gitconfig` - values for every user on the system
-- `/.gitconfig` - specific to the user. you can make git read and write to the file by passing --global variable. C:\User\Malgorzata Syta
+- `/.gitconfig` - specific to the user. you can make git read and write to the file by passing --global variable.
 - `.git/config` - file within your repository.
 
 ```
