@@ -16,13 +16,14 @@ First time setup
 /.gitconfig - specific to the user. you can make git read and write to the file by passing --global variable. C:\User\Malgorzata Syta
 .git/config - file within your repository.
 
-to do 
-    git config --global user.name “Maciej Nowakowski”
-    git config --global user.email “m.nowakowskipl@gmail.com”
-    git config --global core.editor subl
+```
+git config --global user.name “Maciej Nowakowski”
+git config --global user.email “m.nowakowskipl@gmail.com”
+git config --global core.editor subl
+```
 
 to check:
-git config --list
+`git config --list`
 
 Repository
 
