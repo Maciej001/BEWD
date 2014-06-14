@@ -62,9 +62,11 @@ in working directory:
 you deleted something from the file and saved it, closed the file. but you want to undo that
 
 `git status` - will show that the file is red, meaning it has been changed
+
 `git diff` - wyswietli jakich zmian ostatnio dokonales.
 
-**I want the respository version back now! **
+**I want the respository version back now!**
+
 git take the last repository version and bring it back to my working directory.
 
 `git checkout index.html` - in most cases it will work. it goes to repository and makes your working directory to look like repository.
@@ -73,12 +75,14 @@ better:
 `git checkout -- index.html` - meaning, stay on the current branch
 
 **retrieving the old version:**
+
 git checkout 2954ef (pierwsze pare cyfr commit) -- index.html (file, ktory chcemy przywrocic)
 it moves the file from repository to staging area.
 you can check it: git status, and the file will be in green, and ready for commit
 
 **reverting commit:**
-`get revert  737347ea4a`
+
+`git revert  737347ea4a`
 
 #GitHub 
 
@@ -86,20 +90,20 @@ you can check it: git status, and the file will be in green, and ready for commi
 You can add README file, and gitignore file, and github will show you what you should do 
 
 2. Push existing repository:
-git remote add origin https://github.com/Maciej001/git_scoglund.git
-git push -u origin master
+`git remote add origin https://github.com/Maciej001/my_repo.git`
+`git push -u origin master`
 
-git remote - wyswietli wszystkie remote repositories znane dla tego projektu
+`git remote` - wyswietli wszystkie remote repositories znane dla tego projektu
 
 origin - to dowolna nazwa( moze byc np.primary) twojego remote repository.
 
-git remote -v        gives a bit more information
+`git remote -v`        gives a bit more information
 
-git remote rm origin       usuwa remote repository o nazwie ‘origin’
+`git remote rm origin`       usuwa remote repository o nazwie ‘origin’
 
-git push -u origin  master      pushes repository (master branch)  to origin remote repository
+`git push -u origin  maste`r      pushes repository (master branch)  to origin remote repository
 
-git branch           checks on which branch you are on now
+`git branch`           checks on which branch you are on now
 
 Branching
 
